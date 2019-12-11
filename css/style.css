@@ -228,7 +228,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .header-style-1 .header {position: relative; display: block; margin: 0 auto; max-width: 1430px; width: 100%; height: inherit; transition: all 0.33s ease-out; -webkit-transition: all 0.33s ease-out;}
 .logo.vertical-align.auto {left: 15px;}
 .header-style-1 .nav-menu {right: 15px;}
-.header-style-1 .nav-menu ul li {position: relative; float: left; font-size: 12px; line-height: 16px; text-transform: uppercase; font-weight: 700; margin-left: 70px;}
+.header-style-1 .nav-menu ul li {position: relative; float: left; font-size: 12px; line-height: 16px; text-transform: uppercase; font-weight: 700; margin-left: 50px;}
 .header-style-1 .nav-menu ul li a {color: rgba(255,255,255,0.7);}
 .header-style-1 .nav-menu ul li a.active {color: #fff;}
 .burger-menu.right {position: absolute; right: 15px; height: 22px; top: 50%; width: 35px; z-index: 7000; display: none; left: auto;}
