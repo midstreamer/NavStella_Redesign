@@ -53,7 +53,7 @@ input, textarea, select{font-weight: 400; -webkit-appearance: none; appearance: 
 select::-ms-expand{display: none;}
 a {transition:all 0.3s ease-out; -webkit-transition:all 0.3s ease-out;}
 a, a:link, a:visited, a:active, a:hover{cursor: pointer; text-decoration: none; outline: none;}
-body{font-family: 'Montserrat', sans-serif; font-weight: normal; font-size: 13px; line-height: 1; background:#fff; font-weight: 400;}
+body{font-family: 'Quicksand', sans-serif; font-weight: normal; font-size: 13px; line-height: 1; background:#fff; font-weight: 400;}
 ul, ol{list-style: none;}
 b {font-weight: 700;}
 input::-webkit-input-placeholder {color:#a1a1a1; opacity: 1;}
@@ -107,8 +107,9 @@ textarea:-ms-input-placeholder {color:#a1a1a1; opacity: 1;}
 /* TITLE STYLE */
 
 .h1, .h2, .h3, .h4, .h5, .h6 {margin: 0px; text-transform: uppercase; color: #111;}
+#color1{color: #d62e2f; font-family: 'Quicksand', sans-serif;}
 .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {color: inherit;}
-p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand', sans-serif;}
+p {font-size: 14px; line-height: 27px; font-weight: 300; font-family: 'Quicksand', sans-serif;}
 .h1 {font-size: 70px; line-height: 80px; font-weight: 700;}
 .h2 {font-size: 36px; font-weight: 700; line-height: 40px;}
 .h3 {font-size: 24px; font-weight: 700; line-height: 30px;}
@@ -116,6 +117,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .h5 {font-size: 14px; font-weight: 700; line-height: 20px;}
 .h6 {font-size: 13px; font-weight: 400; line-height: 18px;}
 .simple-text {position: relative;}
+.simple-text1 {position: relative; text-align: left;}
 .simple-text p {font-size: 13px; line-height: 25px; color: #787878; font-weight: 400;}
 .simple-text.lg p {font-size: 16px; line-height: 26px;}
 .simple-text.sm p {font-size: 14px; line-height: 24px;}
@@ -160,7 +162,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 
 /* SLIDER STYLE */
 
-.pagination {margin: 0px; z-index: 5; position: absolute; left: 0px; width: 100%; text-align: center; bottom: 40px;}
+.pagination {margin: 0px; z-index: 5; position: absolute; left: 0px; width: 100%; text-align: center; bottom: -40px;}
 .swiper-pagination-switch {position: relative; display: inline-block; margin: 0px 5px; border-radius: 50%; cursor: pointer;}
 .pagination-style-1 .swiper-pagination-switch {width: 13px; height: 13px;  border: 1px solid #fff; }
 .pagination-style-1 .swiper-pagination-switch:before {content: ''; position: absolute; left: 50%; top: 50%; width: 7px; height: 7px; margin: -3.5px 0px 0px -3.5px; background: #77cb5a; border-radius: 50%; transform: scale(0); -webkit-transform: scale(0);-ms-transform: scale(0); opacity: 0; transition: all 0.35s ease-in; -webkit-transition: all 0.35s ease-in;}
@@ -206,7 +208,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .list-style-2 li {font-size: 14px; line-height: 36px; color: rgba(255,255,255,0.6); margin-bottom: 10px; display: block;}
 .list-style-2 li i {position: absolute; left: 0px; width: 34px; height: 34px; line-height: 34px; text-align: center; color: #217ed3; background: #fff; border-radius: 50%;}
 .list-style-2 li span {padding-left: 55px; position: relative; display: inline-block; line-height: 20px;}
-.list-style-3 li {font-size: 13px; line-height: 18px; color: #a1a1a1; font-weight: 400; display: block; padding-bottom: 25px; position: relative;}
+.list-style-3 li {font-size: 15px; line-height: 18px; color: #787878; font-weight: 400; display: block; padding-bottom: 25px; position: relative;}
 .list-style-3 li:last-child {padding-bottom: 0px;}
 .list-style-3 li img {position: absolute; left: 0px; top: 0px;}
 .list-style-3 li span {padding-left: 35px; display: inline-block;}
@@ -267,7 +269,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .footer-item .simple-text p {color: #b5b5b5;}
 .footer-logo {margin-bottom: 20px; display: block;}
 .f-link {display: block; padding-bottom: 20px;}
-.f-link a, .f-link span {color: #b5b5b5; font-family: 'Raleway', sans-serif;}
+.f-link a, .f-link span {color: #b5b5b5; font-family: 'Quicksand', sans-serif;}
 .share a {font-size: 14px; color: #b5b5b5; position: relative; float: left; margin-right: 20px;}
 .twitter-item i {font-size: 16px; color: #1cb7eb; position: relative; float: left;}
 .twitter-item .text {padding-left: 30px;}
@@ -319,11 +321,12 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .about-item.bottom-align .image {width: 80px; height: 80px; display: block; margin: 0 auto 25px;}
 .circle {position: relative; margin: 0 auto 180px; width: 500px; height: 500px; border-radius: 50%;}
 .circle .circle-point {position: absolute;left: 0px; top: 0px; width: 100%; height: 100%;}
-.circle span {color: #989898; font-size: 48px; line-height: 48px; font-weight: 300; font-family: 'Raleway', sans-serif; text-transform: uppercase;}
+.circle span {color: #989898; font-size: 48px; line-height: 48px; font-weight: 300; font-family: 'Quicksand', sans-serif; text-transform: uppercase;}
 
 .about-slide {position: relative; float: right; width: 70%; background: #fff; padding: 80px 70px 70px 0px;}
 .about-slide1 {position: relative; float: right; width: 63%; background: #fff; padding: 80px 36px 70px 0px;}
 .about-slide .image {position: absolute; left: -2%; top: 50%; transform: translateY(-50%) translateX(-58%); -webkit-transform: translateY(-50%) translateX(-58%);-ms-transform: translateY(-50%) translateX(-58%);}
+.about-slide .image1 {position: absolute; background-image: url(img/cx4.png); left: -2%; top: 50%; transform: translateY(-50%) translateX(-58%); -webkit-transform: translateY(-50%) translateX(-58%);-ms-transform: translateY(-50%) translateX(-58%);}
 .about-list {position: relative; float: right; width: 60%;}
 .about-list li {position: relative; display: inline-block; width: 100%; margin-bottom: 40px;}
 .about-list li:last-child {margin-bottom: 0px;}
@@ -376,7 +379,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .project-desc a{position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;z-index: 5;}
 .project-desc .layer {background: rgba(0,0,0,.5); position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; transform: translate(20%, 20%); opacity: 0; -webkit-transform: translate(20%, 20%);-ms-transform: translate(20%, 20%); transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out;}
 .project-desc .vertical-align {margin: 30px 0px 0px 60px; opacity: 0; transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out;}
-.sub-title {color: rgba(255,255,255,0.7); font-weight: 400; font-family: 'Raleway', sans-serif;}
+.sub-title {color: rgba(255,255,255,0.7); font-weight: 400; font-family: 'Quicksand', sans-serif;}
 .no-item {display: none;  font-size: 14px; text-transform: uppercase; font-weight: 400; line-height: 50px;}
 .load-item {display: none; position: relative; width: 100%;}
 .load-more {margin-bottom: 30px;}
@@ -385,7 +388,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .play-button {position: relative; color: #fff; width: 75px; height: 75px; overflow: hidden; line-height: 75px; background: #77cb5a; border-radius: 50%; text-align: center; cursor: pointer; transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; margin: 0 auto 30px; backface-visibility: hidden;}
 .play-button i {font-size: 24px; line-height:75px;}
 .play-button i:before {margin-left: 3px; transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out;}
-.play-button i:after {content: '\e800'; font-family: "fontello";font-style: normal;font-weight: normal;position: absolute; left: 50%; top: 0%; margin: 0px 0px 0px -9px; text-decoration: inherit;text-align: center;font-variant: normal;text-transform: none;transform: scale(0);-webkit-transform: scale(0);-ms-transform: scale(0);transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out;}
+.play-button i:after {content: '\e800'; font-family: "Quicksand";font-style: normal;font-weight: normal;position: absolute; left: 50%; top: 0%; margin: 0px 0px 0px -9px; text-decoration: inherit;text-align: center;font-variant: normal;text-transform: none;transform: scale(0);-webkit-transform: scale(0);-ms-transform: scale(0);transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out;}
 
 .bgvid {position: absolute;top: 0;left: 0; width: 100%;height: 100%;z-index: 1; overflow: hidden;}
 .close-video {width: 30px; height: 30px; background: #fff; z-index: 8; color: #272b2b; opacity: 0; position: absolute; right: 0px; top: 0px; line-height: 32px; text-align: center; font-size: 24px; cursor: pointer; backface-visibility: hidden;}
@@ -434,7 +437,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .price-val b {font-size: 34px;}
 .price-item .simple-text {padding-bottom: 20px;}
 .price-item ul {padding-bottom: 25px;}
-.price-item ul li {font-size: 13px; color: #a1a1a1; font-weight: 400; font-family: 'Raleway', sans-serif;padding-bottom: 20px;}
+.price-item ul li {font-size: 13px; color: #a1a1a1; font-weight: 400; font-family: 'Quicksand', sans-serif;padding-bottom: 20px;}
 .price-item ul li b {color: #111; font-weight: 700;}
 .logo-block-items {position: relative; width: 100%; display: inline-block; margin-bottom: 30px;}
 .logo-item .image {width: 170px; height: 170px; margin: 0 auto; text-align: center;}
@@ -460,18 +463,18 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .blog-item .image img {width: 100%; height: auto; display: block;transition: all 0.35s ease-in; -webkit-transition: all 0.35s ease-in;-ms-transition: all 0.35s ease-in;}
 .post-date {position: absolute; width: 55px; height: 55px; right: 20px; font-size: 18px; top: 20px; color: rgba(255,255,255,0.7); font-size: 18px; }
 .post-date i {display: block; font-size: 13px; font-style: normal;}
-.info-line {padding-bottom: 15px; font-family: 'Raleway', sans-serif; font-weight: 400;}
+.info-line {padding-bottom: 15px; font-family: 'Quicksand', sans-serif; font-weight: 400;}
 .info-line a {color: #c2c2c2; font-size: 12px; margin: 0 15px;}
 .info-line a span {padding-right: 5px;}
 .info-line * {vertical-align: middle;}
 
 .contact-block {position: relative; background: #fff; text-align: center; padding: 70px 15px 80px; margin-bottom: 30px;}
 .contact-item {text-align: center; position: relative; display: inline-block; margin: 0 25px 70px;}
-.contact-item a {color: #a1a1a1; font-family: 'Raleway', sans-serif; font-weight: 400; display: block; padding-bottom: 15px;}
-.contact-item ul li {color: #a1a1a1; padding-bottom: 10px; font-family: 'Raleway', sans-serif; font-weight: 400;}
+.contact-item a {color: #a1a1a1; font-family: 'Quicksand', sans-serif; font-weight: 400; display: block; padding-bottom: 15px;}
+.contact-item ul li {color: #a1a1a1; padding-bottom: 10px; font-family: 'Quicksand', sans-serif; font-weight: 400;}
 .input-field {position: relative; display: inline-block; width: 100%; padding: 0px 15px; margin-bottom: 50px;}
 .input-field.col-wh-50 {width: 50%;}
-.input-field input, .input-field textarea {height: 45px; position: relative; font-size: 13px; font-family: 'Raleway', sans-serif; font-weight: 400; width: 100%; text-align: left;}
+.input-field input, .input-field textarea {height: 45px; position: relative; font-size: 13px; font-family: 'Quicksand', sans-serif; font-weight: 400; width: 100%; text-align: left;}
 .contact-form .input-field textarea {height: 90px; resize: none;}
 .contact-form {max-width: 700px; margin: 0 auto;}
 .input-field span {position: relative; width: 100%; display: block;}
@@ -498,7 +501,7 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 .team-desc .f-link b {text-transform: uppercase; color: #111;}
 .team-desc .f-link, .team-desc .simple-text p {color: #989898;}
 .team-desc .simple-text {padding-bottom: 25px;}
-.close-popup {position: absolute; right: 0px; top: 0px; width: 36px; height: 36px; background: #fff; font-family: 'Raleway', sans-serif; text-align: center; line-height: 36px; color: #111; font-size: 20px; cursor: pointer;transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; z-index: 55;}
+.close-popup {position: absolute; right: 0px; top: 0px; width: 36px; height: 36px; background: #fff; font-family: 'Quicksand', sans-serif; text-align: center; line-height: 36px; color: #111; font-size: 20px; cursor: pointer;transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out; z-index: 55;}
 .close-popup span {display: block; transform: scaleY(0.7); -webkit-transform: scaleY(0.7);-ms-transform: scaleY(0.7);}
 .preview-slider-wrap.padd-bott {padding: 0px 15px 10px;}
 
@@ -689,9 +692,9 @@ p {font-size: 14px; line-height: 20px; font-weight: 300; font-family: 'Quicksand
 /* 06 - HOME PAGE 2 */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
-body.app-style {font-family: 'Raleway', sans-serif;}
-.font-type {font-family: 'Montserrat', sans-serif;}
-.app-style p {font-family: 'Montserrat', sans-serif; color: #a1a1a1; font-weight: 400;}
+body.app-style {font-family: 'Quicksand', sans-serif;}
+.font-type {font-family: 'Quicksand', sans-serif;}
+.app-style p {font-family: 'Quicksand', sans-serif; color: #a1a1a1; font-weight: 400;}
 .app-style .h1, .app-style .h2, .app-style .h3, .app-style .h4, .app-style .h5, .app-style .h6 {text-transform: none; font-weight: 500;}
 .app-style .h4, .app-style .h5 {text-transform: uppercase;}
 .simple-text p {font-size: 15px;}
@@ -835,7 +838,7 @@ body.app-style {font-family: 'Raleway', sans-serif;}
 .email-title {text-align: center; position: relative; padding-bottom: 30px;}
 .email-title b {font-weight: 900;}
 .subscribe-form {width: 430px; display: block; margin: 0 auto; position: relative;}
-.subscribe-form input[type="email"] {position: relative; width: 100%; height: 50px; border: 1px solid rgba(255,255,255,0.3); border-radius: 25px; padding: 0px 150px 0px 30px; font-size: 14px; font-weight: 400; font-family: 'Montserrat', sans-serif; background: none; color: #fff;}
+.subscribe-form input[type="email"] {position: relative; width: 100%; height: 50px; border: 1px solid rgba(255,255,255,0.3); border-radius: 25px; padding: 0px 150px 0px 30px; font-size: 14px; font-weight: 400; font-family: 'Quicksand', sans-serif; background: none; color: #fff;}
 .subscribe-form input[type="submit"] {position: absolute; right: 0px; top: 0px; background: #fff; width: 126px; padding: 0px 30px; text-transform: uppercase; color: #0386c3; font-size: 12px; font-weight: 500; height: 100%; border-radius: 25px;transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out;-ms-transition: all 0.35s ease-out;}
 .place-white input[type="email"]::-webkit-input-placeholder {color:#fff; opacity: 0.6;}
 .place-white input[type="email"]::-moz-placeholder {color:#fff; opacity: 0.6;}
@@ -845,8 +848,8 @@ body.app-style {font-family: 'Raleway', sans-serif;}
 .comment-item {text-align: center; position: relative; width: 100%;}
 .comment-item .image {margin: 0 auto 35px;}
 .comment-item .simple-text {padding: 0px 50px 35px;}
-.comment-item .simple-text:before {content: '❝'; font-size: 30px; color: #fff; position: absolute; left: 10px; top: 50%; margin-top: -15px; font-family: 'Montserrat', sans-serif;}
-.comment-item .simple-text:after {content: '❞'; font-size: 30px; color: #fff; position: absolute; right: 10px; top: 50%; margin-top: -15px; font-family: 'Montserrat', sans-serif;}
+.comment-item .simple-text:before {content: '❝'; font-size: 30px; color: #fff; position: absolute; left: 10px; top: 50%; margin-top: -15px; font-family: 'Quicksand', sans-serif;}
+.comment-item .simple-text:after {content: '❞'; font-size: 30px; color: #fff; position: absolute; right: 10px; top: 50%; margin-top: -15px; font-family: 'Quicksand', sans-serif;}
 
 .comm-img {margin: 30px auto 0px; width: 110px; height: 110px; transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out;-ms-transition: all 0.35s ease-out;}
 .comm-img img {width: 100%; height: auto; cursor: pointer; border-radius: 50%; filter: grayscale(1); -webkit-filter: grayscale(1); transition: all 0.35s ease-out; -webkit-transition: all 0.35s ease-out;-ms-transition: all 0.35s ease-out;}
@@ -865,7 +868,7 @@ body.app-style {font-family: 'Raleway', sans-serif;}
 .price-item.type-2 .price-val {color: #0386c3; font-weight: 500;padding-bottom: 45px;}
 .price-item.type-2 .price-val b {font-size: 40px; font-weight: 500;}
 .price-item.type-2 .title {padding-bottom: 25px;}
-.price-item.type-2 ul li {font-size: 12px; color: #a1a1a1; font-family: 'Montserrat', sans-serif; border-bottom: 1px solid #e5e5e5; margin-bottom: 20px;}
+.price-item.type-2 ul li {font-size: 12px; color: #a1a1a1; font-family: 'Quicksand', sans-serif; border-bottom: 1px solid #e5e5e5; margin-bottom: 20px;}
 .price-item.type-2 ul li:last-child {border-bottom: 0px none; margin-bottom: 0px;}
 .price-item.type-2 ul li b {font-size: 14px; color: #111; font-weight: 700;}
 
@@ -883,7 +886,7 @@ body.app-style {font-family: 'Raleway', sans-serif;}
 .contact-item.type-2 {min-height: 43px; text-align: left; position: relative; float: left; width: 50%; margin: 0 0 30px;}
 .contact-item.type-2 .text {padding-left: 70px; position: relative; display: inline-block;}
 .contact-item.type-2 .vertical-align.auto {left: 0px;}
-.contact-item.type-2 ul li, .contact-item.type-2 a {font-size: 13px; color: rgba(255,255,255,0.6); font-family: 'Montserrat', sans-serif; font-weight: 400;}
+.contact-item.type-2 ul li, .contact-item.type-2 a {font-size: 13px; color: rgba(255,255,255,0.6); font-family: 'Quicksand', sans-serif; font-weight: 400;}
 .contact-item.type-2 ul li {padding-bottom: 0px; line-height: 18px;}
 .contact-item.type-2 a {line-height: 20px; padding-bottom: 10px;}
 .contact-item.type-2 a:last-child {padding-bottom: 0px;}
@@ -1034,12 +1037,12 @@ body.app-style {font-family: 'Raleway', sans-serif;}
 /* 07 - HOME PAGE 3 */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
-.desktop-style .h1, .desktop-style .h2, .desktop-style .h3, .desktop-style .h4, .desktop-style .h5, .desktop-style .h6 {font-family: 'Raleway', sans-serif; font-weight: 400;}
+.desktop-style .h1, .desktop-style .h2, .desktop-style .h3, .desktop-style .h4, .desktop-style .h5, .desktop-style .h6 {font-family: 'Quicksand', sans-serif; font-weight: 400;}
 .desktop-style .h1, .desktop-style .h2 {text-transform:none;}
 .desktop-style .simple-text p {color: #a1a1a1;}
 .desktop-style .section-caption .simple-text p {color: #787878;}
 .desktop-style .white-color .simple-text p {color: rgba(255,255,255,0.6);}
-.desktop-style p {font-family: 'Montserrat', sans-serif;}
+.desktop-style p {font-family: 'Quicksand', sans-serif;}
 .caption-stye-3 .title {padding-bottom: 35px;}
 .caption-stye-3 .simple-text {padding-bottom: 40px; max-width: 800px;}
 .caption-stye-3 .image {margin-bottom: 25px;}
@@ -1049,7 +1052,7 @@ body.app-style {font-family: 'Raleway', sans-serif;}
 .bg-soda {background: #0e1d41;}
 .mob-img {display: block; max-width: 100%; height: auto; margin: 0 auto;}
 .list-wrap ul {padding-bottom: 50px;}
-.link-style-1.type-3 {padding: 0px 30px; border-radius: 3px; background: #88c702; font-family: 'Raleway', sans-serif; color: #fff; font-weight: 600; backface-visibility: hidden;}
+.link-style-1.type-3 {padding: 0px 30px; border-radius: 3px; background: #88c702; font-family: 'Quicksand', sans-serif; color: #fff; font-weight: 600; backface-visibility: hidden;}
 .link-style-1.type-3:after {display: none;}
 .link-style-1.type-3:before {transform: translateX(0) scale(0); -webkit-transform: translateX(0) scale(0); -ms-transform: translateX(0) scale(0); width: 100%; backface-visibility: hidden; background: #fff;}
 .link-style-1.type-3 span {width: auto; vertical-align: middle;}
@@ -1175,7 +1178,7 @@ body.app-style {font-family: 'Raleway', sans-serif;}
 .slider-duble.type-2 .comment-item {width: 90%; margin: 0 auto;} 
 .slider-duble.type-2 .comment-item .sub-title {color: #a1a1a1;}
 .slider-duble.type-2 .comment-item .simple-text {padding: 0px 70px 35px;}
-.slider-duble.type-2 .comment-item .simple-text p {font-size: 19px; line-height: 27px; font-family: 'Raleway', sans-serif; font-weight: 100; color: #111;}
+.slider-duble.type-2 .comment-item .simple-text p {font-size: 19px; line-height: 27px; font-family: 'Quicksand', sans-serif; font-weight: 100; color: #111;}
 .slider-duble.type-2 .comment-item .simple-text::before, .slider-duble.type-2 .comment-item .simple-text:after {color: #88c702;}
 .slider-duble.type-2 .comment-slider .arrow-style-2 {top: auto; bottom: 40px;} 
 
