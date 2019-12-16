@@ -797,11 +797,12 @@
 }
 
 .service-item {
-  border-bottom: 2px solid #217ED3;
+ 
   padding: 2em 0;
   position: relative;
   margin: 0 auto;
 }
+
 
 .service-item12 {
   /* border: 1px solid; */
