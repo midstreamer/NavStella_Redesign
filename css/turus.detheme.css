@@ -103,14 +103,34 @@ HEADING
   justify-content: center;
 }
 /* hsla(44.99999999999968, 40.00%, 98.04%, 1.00)*/
-
+.section1 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#footerone{
+  color: #ffff
+}
 .section.bgcream {
   background-color: hsla(44.99999999999968, 40.00%, 98.04%, 1.00);
   font-weight: 400;
 }
 
 .section.bgcream1 {
-  background-color: #fff;
+  background-color: white;
+  font-weight: 400;
+}
+
+.section.bgcream1 {
+  background-image: url(22.jpg)  no-repeat center center fixed;
   font-weight: 400;
 }
 .resp-container {
@@ -127,7 +147,11 @@ HEADING
   border: 0;
 }
 .section.dark {
-  background-color: hsla(12.238805970149256, 100.00%, 60.59%, 1.00);
+  background-color: #d62e2f;
+}
+
+.section.dark1 {
+  background-color: #f7f7f7;
 }
 
 .section.dark2 {
@@ -148,6 +172,33 @@ HEADING
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+}
+
+.wrapper1 {
+  background-image: url(22.jpg);
+  position: relative;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -222,8 +273,8 @@ NAVIGATION
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffff;
-  font-family: Montserrat, sans-serif;
+  background-color: transparent;
+  font-family: Quicksand, sans-serif;
 }
 
 
@@ -401,8 +452,18 @@ LAYOUT
   flex: 0 0 auto;
 }
 
+.col.lg-33 {
+  width: 22%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
 .col.lg-8 {
   width: 66.66%;
+}
+.col.lg-88 {
+  width: 75%;
 }
 
 /*------------------------------------------------------------------
@@ -483,6 +544,12 @@ BUTTON
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
+}
+.paragraph-small1 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
 }
 
 .paragraph-small.ondark2 {
@@ -604,6 +671,10 @@ BUTTON
 
 .ondark {
   color: #fff;
+}
+
+.ondark1 {
+  color: black;
 }
 
 .readmore {
@@ -737,6 +808,7 @@ BUTTON
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px;
+  padding-bottom: 80px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -793,16 +865,13 @@ BUTTON
 }
 
 .full-height.hero-section {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #274cf6;
-  font-family: Roboto, sans-serif;
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("nightsky.jpg");
+  font-family: Quicksand, sans-serif;
 }
 
 .hero-text {
@@ -812,12 +881,12 @@ BUTTON
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  font-family: Montserrat, sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #fff;
-  font-size: 120px;
+  font-size: 100px;
   line-height: 1;
   font-weight: 900;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0em;
   text-transform: none;
 }
@@ -829,11 +898,12 @@ BUTTON
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  font-family: Roboto, sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #fff;
-  font-size: 18px;
+  font-size: 42px;
+  font-weight: 700;
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
 }
 
 .image-10 {
@@ -862,6 +932,14 @@ BUTTON
   font-weight: 900;
   letter-spacing: 2px;
 }
+.micro-heading1 {
+  font-family: Roboto, sans-serif;
+  color: #d62e2f;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: center;
+}
 
 .micro-heading.ondark {
   color: #fff;
@@ -887,8 +965,8 @@ BUTTON
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 20px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -905,8 +983,13 @@ BUTTON
 }
 
 .circle.gradient {
-  background-color: #f16522;
-  color: #fff;
+  background-color: #d62e2f;
+  color: white;
+ }
+
+ .circle.gradient1 {
+  background-color: #217ed3;
+  color: white;
  }
 
 .how-it-works-step {
@@ -1388,9 +1471,10 @@ i {
 
 .nav-link {
   padding-right: 20px;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  color: black;
+  font-family: Quicksand, sans-serif;
+  font-size: 14px;
+  /* font-weight: regular; */
+  color: white;
 }
 
 .nav-menu {
@@ -1402,10 +1486,11 @@ i {
 
 .hexagon4 {
   position: absolute;
-  left: -23%;
+  left: 60%;
   top: auto;
   right: auto;
-  bottom: 27%;
+  bottom: 18%;
+  
 }
 
 .form-field-3 {
@@ -2030,7 +2115,7 @@ i {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #f16522;
+  background-color: #217ed3;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -2070,7 +2155,33 @@ i {
   top: 5px;
 }
 
+@media (min-width: 992px) {
+  .youtubevid {
+      width: 543px;
+      height: 306px; /* 720px */
+  }
+}
 
+@media (min-width: 767px) and (max-width: 991px) {
+  .youtubevid {
+      width: 640px;
+      height: 360px; /* 480px */
+  }
+}
+
+@media (min-width: 481px) and (max-width: 766px) {
+  .youtubevid {
+      width: 480px;
+      height: 270px; /* 320px */
+  }
+}
+
+@media (max-width: 480px) {
+  .youtubevid {
+      width: 300px;
+      height: 169px; /* 225px */
+  }
+}
 /*------------------------------------------------------------------
 
 FONT

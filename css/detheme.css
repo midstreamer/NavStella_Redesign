@@ -55,8 +55,16 @@ body {
   color: #333;
 }
 img {
-  max-width: 100%;
+  max-width: 75%;
   vertical-align: middle;
+  padding-left: 25px;
+  display: inline-block;
+}
+
+.leadership {
+  max-width: 45%;
+  vertical-align: middle;
+  padding-left: 25px;
   display: inline-block;
 }
 html.w-mod-touch * {
