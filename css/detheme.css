@@ -62,11 +62,18 @@ img {
 }
 
 .leadership {
-  max-width: 45%;
+  max-width: 100%;
   vertical-align: middle;
-  padding-left: 25px;
+  padding-left: 0px;
   display: inline-block;
 }
+.leadership1 {
+  max-width: 75%;
+  vertical-align: middle;
+  padding-left: 0px;
+  display: inline-block;
+}
+
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
